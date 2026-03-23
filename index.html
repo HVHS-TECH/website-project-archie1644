@@ -25,7 +25,39 @@ gap: 5px;
 }
 
 .navbar {
-  
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar a {
+  position: absoulte;
+  color: white;
+  background-color: black;
+  border-radius: 6px;
+  padding: 8px, 16px;
+}
+
+.navbar left {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar center {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%, -50%);
+}
+
+.navbar right {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar a:hover {
+  background-color: grey;
 }
 
 
