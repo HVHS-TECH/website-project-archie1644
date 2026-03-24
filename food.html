@@ -5,3 +5,119 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <title>Top 10 Food</title>
 </head>
+<body>
+<style>
+.container {
+display: grid;
+grid-template-columns: 767px auto;
+grid-template-rows: 67px 267px 500px 500px;
+background-color: rgb(71, 72, 73);
+padding: 5px;
+gap: 5px;
+
+}
+
+.container div {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar a {
+  position: absoulte;
+  color: white;
+  background-color: black;
+  border-radius: 6px;
+  padding: 8px 16px;
+}
+
+.navbar .left {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar .center {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%, -50%);
+}
+
+.navbar .right {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar a:hover {
+  background-color: grey;
+}
+
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 567;
+    text-align: center;
+}
+
+.item3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.item4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+</style>
+
+<div class="container">
+
+
+<div class="item1">
+  <nav class="navbar">
+    <a href="food.html" class="left">top 10 foods</a>
+    <a href="index.html" class="center">home</a>
+    <a href="drink.html" class="right">top 10 drinks</a>
+  </nav>
+</div>
+
+
+<div class="item2">Food</div>
+
+
+<div class="item3"><h1>What is food?</h1><p>Food is what we eat to give our bodies the energy 
+  they need to function each day. It supports growth, movement, and overall health. Food comes from sources 
+  such as plants and animals, and each type provides different nutrients that the body relies on. These include 
+  carbohydrates for energy, proteins for growth and repair, fats for stored energy, and vitamins and minerals that 
+  help the body work properly. Eating a balanced variety of foods is important for maintaining good health and ensuring 
+  the body gets everything it needs to function effectively. </p></div>
+
+
+<div class="item4"><image src="images/pizza.png"></div>
+<div class="item5">text</div>
+<div class="item6">image</div>
+
+
+
+
+</body>
